@@ -1,0 +1,5 @@
+function Sys.init 0
+  push constant 12  // 00000000 00001100
+  push constant 6   // 00000000 00000110
+  call Sys.xor 2    // 00000000 00001010 (10)
+  

@@ -1,0 +1,9 @@
+function Sys.xor 2
+
+  pop temp 1
+  pop temp 0
+
+  and
+
+  push temp 0
+  return
